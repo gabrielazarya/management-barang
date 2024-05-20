@@ -5,28 +5,92 @@
 <div class="container">
     <div class="section layout-home">
         <div class="heading-home mb-2 text-center">Tentang Logistik</div>
-        <p class="mb-4 text-center">Tentang Logistik Telkom University Surabaya</p>
-
-
-            <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12">
-                    <img src="{{ asset('assets/home-tentang.jpeg') }}" class="image-tentang img-fluid">
-                  </div>
-                  <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12">
-                    <div class="card-body">
-                      <p class="card-text ms-2">
-                        Dalam menghadapi kompleksitas kegiatan akademik dan non-akademik, 
-                        Logistik Telkom University Surabaya hadir sebagai pendukung
-                        kelancaran berbagai kegiatan di lingkungan kampus. Dengan menyediakan 
-                        layanan terbaik, kami bertujuan untuk memastikan ketersediaan barang-barang yang 
-                        diperlukan. Logistik Telkom University Surabaya menjadi mitra yang dapat 
-                        diandalkan bagi mahasiswa, staf, dan organisasi di dalam lingkungan kampus kami.
-                      </p>
+            <p class="mb-4 text-center">Tentang Logistik Telkom University Surabaya</p>
+            <div class="row mt-2">
+                <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-xl-5 col-lg-2 col-md-12 col-sm-12">
+                                <img src="{{ asset('assets/home-tentang.png') }}" class="image-tentang img-fluid">
+                            </div>
+                            <div class="col-xl-7 col-lg-10 col-md-12 col-sm-12">
+                                <div class="card-body">
+                                    <p class="card-text ms-2">
+                                        Dalam menghadapi kompleksitas kegiatan akademik dan non-akademik, 
+                                        Logistik Telkom University Surabaya hadir sebagai pendukung
+                                        kelancaran berbagai kegiatan di lingkungan kampus. Dengan menyediakan 
+                                        layanan terbaik, kami bertujuan untuk memastikan ketersediaan barang-barang yang 
+                                        diperlukan.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+                <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-xl-5 col-lg-2 col-md-12 col-sm-12">
+                                <img src="{{ asset('assets/home-tentang-2.png') }}" class="image-tentang img-fluid">
+                            </div>
+                            <div class="col-xl-7 col-lg-10 col-md-12 col-sm-12">
+                                <div class="card-body">
+                                    <p class="card-text ms-2">
+                                        Kami berkomitmen untuk menyediakan layanan logistik yang efisien 
+                                        dan handal guna mendukung berbagai kebutuhan akademik dan 
+                                        administratif. Dengan tim yang berpengalaman dan sistem manajemen 
+                                        yang terorganisir dengan baik, kami memastikan bahwa setiap permintaan 
+                                        peminjaman barang ditangani dengan cepat dan efisien.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{-- <div class="row mt-2">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">
+                                <img src="{{ asset('assets/home-tentang-3.png') }}" class="image-tentang img-fluid">
+                            </div>
+                            <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12">
+                                <div class="card-body">
+                                    <p class="card-text ms-2">
+                                        Sebagai mitra yang dapat diandalkan, kami tidak hanya menyediakan layanan 
+                                        peminjaman barang, tetapi juga memberikan dukungan dan solusi logistik yang 
+                                        komprehensif. Kami siap mendukung berbagai kegiatan seperti seminar, 
+                                        workshop, acara kampus dengan menyediakan 
+                                        peralatan, perlengkapan, dan dukungan logistik lainnya sesuai kebutuhan.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">
+                                <img src="{{ asset('assets/home-tentang-4.png') }}" class="image-tentang img-fluid">
+                            </div>
+                            <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12">
+                                <div class="card-body">
+                                    <p class="card-text ms-2">
+                                        Kami percaya bahwa layanan logistik yang baik adalah kunci untuk memastikan 
+                                        kelancaran kegiatan di lingkungan kampus. Oleh karena 
+                                        itu, kami terus berusaha untuk meningkatkan dan menyempurnakan layanan kami 
+                                        agar dapat terus menjadi mitra yang berharga bagi seluruh komunitas kampus 
+                                        Telkom University Surabaya.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> --}}
         </div>
     </div>
 </div>
@@ -152,7 +216,7 @@
             </div>
         </div>
         <div class="">
-            <a href="#" class="btn merah mt-4">Pinjam Barang</a>
+            <a href="/pinjam" class="btn merah mt-4">Pinjam Barang</a>
         </div>
     </div>
 </div>

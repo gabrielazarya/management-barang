@@ -26,16 +26,16 @@
             <a class="navbartext nav-link {{ request()->routeIs('dashboard') ? 'active' : '' }}" href="{{ route('dashboard') }}" href="/">DASHBOARD</a>
           </li>
           <li class="nav-item">
-            <a class="navbartext nav-link" href="#">INFORMASI BARANG</a>
+            <a class="navbartext nav-link {{ request()->routeIs('informasi') ? 'active' : '' }}" href="{{ route('informasi') }}" href="/informasi">INFORMASI BARANG</a>
           </li>
           <li class="nav-item">
-            <a class="navbartext nav-link" href="#">PINJAM BARANG</a>
+            <a class="navbartext nav-link {{ request()->routeIs('pinjam') ? 'active' : '' }}" href="{{ route('pinjam') }}" href="/pinjam">PINJAM BARANG</a>
           </li>
           <li class="nav-item">
-            <a class="navbartext nav-link" href="#">RIWAYAT PEMINJAMAN</a>
+            <a class="navbartext nav-link {{ request()->routeIs('riwayat') ? 'active' : '' }}" href="{{ route('riwayat') }}" href="/riwayat">RIWAYAT PEMINJAMAN</a>
           </li>
           <li class="nav-item">
-            <a class="navbartext nav-link" href="#">PROFIL</a>
+            <a class="navbartext nav-link {{ request()->routeIs('profil') ? 'active' : '' }}" href="{{ route('profil') }}" href="/profil">PROFIL</a>
           </li>
         </ul>
       </div>
