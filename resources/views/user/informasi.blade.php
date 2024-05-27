@@ -5,7 +5,6 @@
 <div class="container">
     <div class="layout-home">
         <div class="informasi-container">
-            <h1>Informasi Ketersediaan Barang</h1>
 
             <form method="POST" action="{{ route('informasi.check') }}">
                 @csrf

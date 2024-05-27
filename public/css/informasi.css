@@ -13,11 +13,6 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.informasi-container h1 {
-    text-align: center;
-    color: #333;
-}
-
 .informasi-container form {
     display: flex;
     flex-direction: column;
