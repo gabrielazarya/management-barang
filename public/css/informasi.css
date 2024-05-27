@@ -1,0 +1,69 @@
+.informasi-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.informasi-container .content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.informasi-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.informasi-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.informasi-container label {
+    font-weight: bold;
+}
+
+.informasi-container input[type="date"], .informasi-container input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.informasi-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.informasi-container button:hover {
+    background-color: #0056b3;
+}
+
+.informasi-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.informasi-container table, .informasi-container th, .informasi-container td {
+    border: 1px solid #ddd;
+}
+
+.informasi-container th, .informasi-container td {
+    padding: 10px;
+    text-align: left;
+}
+
+.informasi-container th {
+    background-color: #f4f4f9;
+}
