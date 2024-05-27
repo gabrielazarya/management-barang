@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+class Admin extends Model
 {
     use HasFactory;
 
-    protected $primaryKey = 'id_user';
+    protected $primaryKey = 'id_admin';
 
     protected $fillable = [
         'nama',
@@ -24,6 +24,11 @@ class User extends Model
 
     public function pinjams()
     {
-        return $this->hasMany(Pinjam::class, 'id_user');
+        return $this->hasMany(Pinjam::class, 'id_admin');
+    }
+
+    public function konfirmasis()
+    {
+        return $this->hasMany(Konfirmasi::class, 'id_admin');
     }
 }

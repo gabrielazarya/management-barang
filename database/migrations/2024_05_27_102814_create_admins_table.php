@@ -9,10 +9,13 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
-    public function up(): void
+    public function up()
     {
-        Schema::create('konfirmasi_admins', function (Blueprint $table) {
-            $table->id();
+        Schema::create('admins', function (Blueprint $table) {
+            $table->bigIncrements('id_admin');
+            $table->string('nama');
+            $table->string('username')->unique();
+            $table->string('password');
             $table->timestamps();
         });
     }
@@ -20,8 +23,8 @@ return new class extends Migration
     /**
      * Reverse the migrations.
      */
-    public function down(): void
+    public function down()
     {
-        Schema::dropIfExists('konfirmasi_admins');
+        Schema::dropIfExists('admins');
     }
 };
