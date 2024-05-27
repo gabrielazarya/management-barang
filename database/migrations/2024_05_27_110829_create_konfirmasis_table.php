@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('konfirmasi', function (Blueprint $table) {
+        Schema::create('konfirmasis', function (Blueprint $table) {
             $table->bigIncrements('id_konfirmasi');
             $table->unsignedBigInteger('id_pinjam')->nullable();
             $table->unsignedBigInteger('id_admin')->nullable();
