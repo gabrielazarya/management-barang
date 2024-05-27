@@ -30,13 +30,13 @@ class CreateCheckAvailabilityProcedure extends Migration
                             ELSE p.jumlah_barang
                         END AS jumlah_barang_pinjam
                     FROM 
-                        barang b
+                        barangs b
                     LEFT JOIN (
                         SELECT 
                             id_barang,
                             SUM(jumlah_barang) AS jumlah_barang
                         FROM 
-                            pinjam
+                            pinjams
                         WHERE 
                             pinjam_date BETWEEN tanggal_pinjam AND tanggal_pengembalian
                             OR pengembalian_date BETWEEN tanggal_pinjam AND tanggal_pengembalian
