@@ -7,6 +7,7 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/landingpage.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/informasi.css') }}" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link rel="icon" href="{{ asset('assets/logo-icon.png') }}" type="image/x-icon">
 

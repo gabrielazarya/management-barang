@@ -7,6 +7,7 @@ use App\Http\Controllers\UserController;
 
 Route::get('/', [UserController::class, 'dashboard'])->name('dashboard');
 Route::get('/informasi', [UserController::class, 'informasi'])->name('informasi');
+Route::post('/informasi/check', [BarangController::class, 'checkAvailability'])->name('informasi.check');
 Route::get('/pinjam', [UserController::class, 'pinjam'])->name('pinjam');
 Route::get('/profil', [UserController::class, 'profil'])->name('profil');
 Route::get('/riwayat', [UserController::class, 'riwayat'])->name('riwayat');
